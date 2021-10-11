@@ -1,3 +1,21 @@
+// set values in object properties with 3 ways
+//================================================================
+
+let foods = {
+  apples: 25,
+  oranges: 32,
+  plums: 28
+};
+
+foods.bananas = 13; // dot notation
+foods['grapes'] = 35; // bracket notation
+
+const item = 'strawberries'; 
+foods[item] = 27; // set by variable notation
+
+console.log(foods);
+
+
 //Exercise-1:(Object Methods)
 //================================================================
 const product = {
