@@ -1,0 +1,17 @@
+{
+  "name": "json-server-api",
+  "version": "1.0.0",
+  "description": "JSON server Rest API built",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json"
+  },
+  "author": "Kawser",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
+
+
+
