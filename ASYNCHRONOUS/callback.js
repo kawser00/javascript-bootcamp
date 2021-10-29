@@ -1,8 +1,7 @@
-// WE CAN DEAL ASYNCHRONOUS IN 4 WAYS:
+// WE CAN DEAL ASYNCHRONOUS IN 3 WAYS:
 // 1. callback function
 // 2. Promise API
 // 3. async await - behind the scenes it works with Promise way
-// 4. fetch
 
 // 1. callback function
 function getNumber(num, callback) {

@@ -1,33 +1,39 @@
-<p align="center">
-  <h1 align="center"> Think in a React way</h1>
-</p>
-
-
-## Getting started
-Initialization
-``` npm init ```
-<br/>
-
-Install JSON Server
-
-```npm install json-server```
-Create a ```db.json``` file with some data
-
-```{
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
-}```
-
-Start JSON Server(we can create a script in package.json)
-
-```"scripts": {
-    "start": "json-server --watch db.json"
-  }```
-Now if you go to http://localhost:3000/posts/1, you'll get
-
-```{ "id": 1, "title": "json-server", "author": "typicode" }```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"
+    />
+  <title>JSON Server API</title>
+</head>
+<body>
+  <div class="container">
+  <h1 class="my-4">JSON Server Rest API</h1>
+  <table class="table table-striped table-hover border">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Name</th>
+        <th scope="col">User Name</th>
+        <th scope="col">Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+  <script src="main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
